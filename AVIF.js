@@ -20,10 +20,10 @@ export const default_options = {
   // 10 = fastest
   speed: 10,
   // 0 = 4:0:0 // gray scale
-  // 1 = 4:2:0
+  // 1 = 4:2:0 // reds and blues look washed out
   // 2 = 4:2:2
   // 3 = 4:4:4
-  subsample: 2,
+  subsample: 3,
   // Extra chroma compression
   chromaDeltaQ: false,
   // 0-7

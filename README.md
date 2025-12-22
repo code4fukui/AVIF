@@ -15,6 +15,12 @@ const bin2 = AVIF.encode(image);
 console.log(bin2.length);
 ```
 
+## jpg2avif
+
+```sh
+deno -A cli_jpg2avif.js [jpeg fn]
+```
+
 ## how to build
 
 with [bin2js](https://github.com/code4fukui/bin2js)
