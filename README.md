@@ -1,5 +1,7 @@
 # AVIF
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 util for AVIF in JavaScript / WebAssembly
 
 ## Usage
