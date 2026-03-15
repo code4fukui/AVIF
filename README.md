@@ -2,7 +2,7 @@
 
 util for AVIF in JavaScript / WebAssembly
 
-## usage
+## Usage
 
 ```js
 import { AVIF } from "https://code4fukui.github.io/AVIF/AVIF.js";
@@ -21,14 +21,14 @@ console.log(bin2.length);
 deno -A cli_jpg2avif.js [jpeg fn]
 ```
 
-## how to build
+## How to build
 
-with [bin2js](https://github.com/code4fukui/bin2js)
+With [bin2js](https://github.com/code4fukui/bin2js):
 ```sh
 deno run -A https://code4fukui.github.io/bin2js/bin2js.js dec/avif_dec.wasm
 deno run -A https://code4fukui.github.io/bin2js/bin2js.js enc/avif_enc.wasm
 ```
 
-## forked from
+## Forked from
 
 - [squoosh/codecs/avif at dev · GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh/tree/dev/codecs/avif) in [GoogleChromeLabs/squoosh: Make images smaller using best-in-class codecs, right in the browser.](https://github.com/GoogleChromeLabs/squoosh)
